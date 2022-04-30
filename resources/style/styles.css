@@ -1,0 +1,179 @@
+/*Universal Style*/
+body {
+    margin: 0;
+    height: auto;
+    background-color: #d8f3dc;
+}
+h1 {
+    font-family: Helvetica, sans-serif;
+    color: #081c15;
+    margin: 0 0;
+    font-size: 1.4rem;
+}
+
+p, li, a, figcaption, #quote {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    color: #1b4332;
+    font-weight: 500;
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #1b4332;
+}
+
+/*Navigation Section*/
+nav {
+    background-color: #74c69d;
+    border-bottom: 0.125rem solid #1b4332;
+    display: flex;
+}
+
+#logo {
+    width: 8%;
+    height: auto;
+}
+
+ul {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin-top: 0;
+}
+li {
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+li a {
+    padding: 1rem;
+    text-decoration: none;
+    transition: 0.2s;
+    border-radius: 0.4rem;
+}
+
+li img {
+    display: none;
+}
+li a:hover {
+    background-color: #d8f3dc;
+    font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 480px){
+    #logo {
+        display: none;
+    }
+
+    li a {
+        padding: 1rem;
+        text-decoration: none;
+        border-radius: 0.4rem;
+    }
+
+    li span {
+        display: none;
+    }
+
+    li img {
+        width: 25%;
+        display: inline;
+        margin: 0 auto;
+    }
+
+    li a:hover {
+        display: none;
+    }
+
+    
+}
+/*First Section-Testimonial*/
+.testimonial {
+    background-color: #b7e4c7;
+    margin: auto 1rem;
+    border-radius: 0 0 1rem 1rem;
+}
+.key img {
+    width: 20%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 2rem;
+}
+
+.key {
+    text-align: center;
+}
+
+.key figcaption {
+    padding-bottom: 1rem;
+}
+/*Quote Section*/
+#quote {
+    border-radius: .1rem .1rem 1rem 1rem;
+    background-color: #74c69d;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0;
+
+}
+
+#quote h4 {
+    margin: 0;
+}
+
+#quote em {
+    font-size: 2rem;
+}
+
+/*Section Dogs*/
+
+.waiting {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/*Choose a dog*/
+.available-dogs {
+    width: 100%;
+}
+
+.dog {
+    padding: 0.5rem;
+}
+
+.available-dogs img {
+    width: 20%;
+    height: auto;
+}
+
+/*Our Newsletter*/
+
+.newsletter {
+    margin-top: 1rem;
+    background-color: #74c69d;
+    text-align: center;
+}
+
+.newsletter h1 {
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem 0 0.2rem 0
+}
+
+.buttons {
+    padding-bottom: 1rem;
+}
+
+/*Footer*/
+
+footer p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: .9rem;
+    color: #1b4332;
+    font-weight: 500;
+}
