@@ -1,5 +1,5 @@
 # Dogbuzzer
-Project of a site for a kennel called Dogbuzzer.
+Simple project of a site for a kennel called Dogbuzzer.
 Used to improve knowledge of HTML, CSS and Responsive web design for mobile devices.
 
 Here you can find:
